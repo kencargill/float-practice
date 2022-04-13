@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+  background: #ccc;
+  display: block;
+}
+
+.big {
+    max-width: 800px;
+    position: relative;
+    margin: 10px auto;
+    background: #fff;
+    padding: 20px;
+}
+
+.image-container {
+  padding: 10px 10px 10px 10px;
+  border: 1px solid grey;
+  box-shadow: 10px 5px 0px #ddd;
+  width: 300px;
+  text-align: center;
+  position: relative;
+}
+
+.image-container img {
+  width: 100%;
+}
+
+#image-1 {
+  float: right;
+  margin-left: 40px;
+  margin-bottom: 20px;
+  margin-top: 0;
+  position: relative;
+  right: 0px;
+  transform: rotate(3deg);
+}
+
+#image-2 {
+  float: left;
+  margin-right: 40px;
+  margin-top: 20px;
+  transform: rotate(-3deg);
+}
+
+p {
+  font-family: 'Nanum Brush Script', cursive;
+}
+
+h2 {
+  font-family: 'Seaweed Script', cursive;
+}
+
+.p-1 {
+  clear: left;
+}
+
+.p-2:nth-child(1) {
+  margin-top: 20px;
+}
